@@ -78,7 +78,7 @@ Podemos rever esta política periodicamente. Recomendamos que a consulte regular
 Contacto do Responsável pelo Tratamento:
 Email: privacidade@portugalsitesdeapostas.com
 Website: portugalsitesdeapostas.com
-Localização: Lisboa, Portugal`,
+
     },
   ]
 
