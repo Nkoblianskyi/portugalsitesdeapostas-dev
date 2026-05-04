@@ -22,7 +22,7 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
   }, [])
 
   return (
-    <section className="relative border-b border-border py-12 md:py-20 overflow-hidden">
+    <section className="relative border-b border-border py-4 md:py-6 overflow-hidden">
       {/* Background image — mobile only */}
       <div
         className="absolute inset-0 md:hidden"
@@ -39,39 +39,22 @@ export function HeroSection({ setIsAgeModalOpen, setIsAdvertiserModalOpen }: Her
         {/* Top meta row */}
         <div className="flex items-center justify-between mb-6 md:mb-8">
           <div className="flex items-center gap-2">
-            <span className="inline-flex items-center px-3 py-1 rounded-full bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider">
-              Ranking {currentYear}
-            </span>
             {lastUpdated && (
               <span className="inline-flex items-center px-3 py-1 rounded-full bg-white/10 text-white/80 text-xs font-medium border border-white/20">
                 Atualizado: {lastUpdated}
               </span>
             )}
           </div>
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => setIsAgeModalOpen(true)}
-              className="px-3 py-1 text-xs font-bold text-red-400 border border-red-400/40 rounded-full hover:bg-red-400/10 transition-colors"
-            >
-              +18
-            </button>
-            <button
-              onClick={() => setIsAdvertiserModalOpen(true)}
-              className="px-3 py-1 text-xs text-white/60 border border-white/20 rounded-full hover:bg-white/10 transition-colors"
-            >
-              Publicidade
-            </button>
-          </div>
         </div>
 
         {/* Main content */}
         <div className="max-w-3xl">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-tight text-white text-balance mb-4">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black tracking-tight leading-tight text-white text-balance mb-4">
             Os Melhores{" "}
             <span className="text-accent">Sites de Apostas</span>{" "}
             em Portugal
           </h1>
-          <p className="text-base md:text-lg text-white/75 leading-relaxed max-w-2xl mb-8">
+          <p className="hidden md:block text-base md:text-lg text-white/75 leading-relaxed max-w-2xl mb-8">
             Comparamos e analisamos de forma independente todos os operadores licenciados pelo SRIJ. Encontre a casa
             de apostas certa para si com base em critérios objetivos e verificados pela nossa equipa.
           </p>
