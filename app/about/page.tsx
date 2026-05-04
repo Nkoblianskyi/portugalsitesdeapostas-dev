@@ -25,15 +25,11 @@ export default function AboutPage() {
       <section className="bg-white border-b border-gray-200 py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/8 border border-primary/20 mb-5">
-              <Trophy className="w-3.5 h-3.5 text-primary" />
-              <span className="text-xs font-bold text-primary uppercase tracking-wider">Sobre Nós</span>
-            </div>
             <h1 className="text-4xl md:text-5xl font-black text-gray-900 mb-5 font-serif text-balance leading-tight">
               O Comparador de Apostas de Referência em Portugal
             </h1>
             <p className="text-lg text-gray-500 leading-relaxed max-w-2xl">
-              Desde 2019 que ajudamos apostadores portugueses a encontrar os melhores operadores licenciados. A
+              ajudamos apostadores portugueses a encontrar os melhores operadores licenciados. A
               nossa metodologia é independente, transparente e baseada em testes reais — não em comissões.
             </p>
           </div>
