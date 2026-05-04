@@ -77,8 +77,7 @@ Podemos rever esta política periodicamente. Recomendamos que a consulte regular
 
 Contacto do Responsável pelo Tratamento:
 Email: privacidade@portugalsitesdeapostas.com
-Website: portugalsitesdeapostas.com
-,
+Website: portugalsitesdeapostas.com`,
     },
   ]
 
@@ -125,7 +124,7 @@ Website: portugalsitesdeapostas.com
               className="bg-white rounded-xl border border-gray-200 hover:border-primary/30 transition-colors overflow-hidden"
             >
               <div className="flex items-center gap-3 px-6 py-4 border-b border-gray-100 bg-gray-50">
-                <div className="w-8 h-8 rounded-lg bg-primary/8 flex items-center justify-center flex-shrink-0">
+                <div className="w-8 h-8 rounded-lg bg-primary/8 flex items-center justify-center shrink-0">
                   <section.icon className="w-4 h-4 text-primary" />
                 </div>
                 <h2 className="text-sm font-bold text-gray-900">{section.title}</h2>
