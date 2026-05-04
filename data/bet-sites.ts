@@ -94,18 +94,6 @@ export const bettingSites: BettingSite[] = [
     terms: "18+ | Jogo seguro e responsável | Licença SRIJ | Aplicam-se termos e condições",
   },
   {
-    id: 7,
-    name: "Luckia",
-    logo: "/luckia.svg",
-    bonus: "Aposta Grátis de Atualmente",
-    url: "https://www.luckia.pt/",
-    rating: 8.6,
-    stars: 4.3,
-    reviews: 2738,
-    badges: ["APOSTAS DESPORTIVAS"],
-    terms: "18+ | Jogo seguro e responsável | Licença SRIJ | Aplicam-se termos e condições",
-  },
-  {
     id: 8,
     name: "Casino Portugal",
     logo: "/brand-ccasino.svg",
